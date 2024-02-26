@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(23, 23, 58);
+  color: whitesmoke;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(75, 71, 71);
+  height: 10vh;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  padding: 0px 0px 0px 20px;
+}
+.left {
+  font-size: 1.6rem;
+}
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 8rem 0px;
+  height: 50vh;
+}
+.firstsection .leftsection {
+  font-size: 3rem;
+}
+.firstsection .leftsection .b1{
+  height: 6vh;
+  width: 10vw;
+  font-size: medium;
+  background-color: antiquewhite;
+  color: purple;
+  border: 3px solid grey;
+  border-radius: 4px;
+}
+.firstsection .leftsection .b1:hover{
+  cursor: pointer;
+  background-color: purple;
+  color: antiquewhite;
+  height: 6.1vh;
+  width: 10.1vw;
+}
+.firstsection .leftsection .b2{
+  height: 6vh;
+  width: 9vw;
+  font-size: medium;
+  background-color: lavender;
+  color: blueviolet;
+  border: 3px solid grey;
+  border-radius: 4px;
+}
+.firstsection .leftsection .b2:hover{
+  cursor: pointer;
+  background-color: blueviolet;
+  color: lavender;
+  height: 6.1vh;
+  width: 9.1vw;
+}
+.firstsection .rightsection img{
+  border-radius: 50%;
+  height: 97%;
+  border: 3px solid white;
+  box-shadow: 3px 3px 4px rgb(108, 205, 243), -3px -3px 4px rgb(108, 205, 243);
+}
+.secondsection {
+  margin: auto;
+  max-width: 80vw;
+  height: 75vh;
+}
+.text-gray {
+  display: flex;
+  justify-content: center;
+  color: gray;
+}
+.secondsection h1 {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+}
+
+.secondsection .horizontal-box {
+  width: 67vw;
+  height: 0.8vh;
+  background-color: white;
+  margin: 4rem auto;
+  display: flex;
+}
+.secondsection .horizontal-box .vertical {
+  height: 8vh;
+  width: 1.5px;
+  background-color: gray;
+  margin: auto;
+}
+.secondsection .horizontal-box .vertical .img1 {
+  position: relative;
+  top: -29px;
+  left: -12px;
+}
+
+.secondsection .horizontal-box .vertical-tittle {
+    width: 6rem;
+    font-size: 14px;
+    position: relative;
+    top: 35px;
+    left: -2px;
+}
+
+.vertical-desc {
+    font-size: 9px;
+    color: grey;
+    position: relative;
+    top: 35px;
+    width: 8vw;
+}
+
+.footer{
+  height: 45vh;
+  background-color: black;
+  
+}
+.footer h1{
+
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+.footer .foot{
+  display: flex;
+  justify-content: space-around;
+}
+.footer .card{
+  
+  height: 20vh;
+  width: 14vw;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.footer .foot .card .mail{
+  margin: 0px 5px;
+  text-align: center;
+}
+footer .end{
+  background-color: rgb(47, 46, 46);
+  height: 9vh;
+  align-content: center;
+  justify-content: center;
+  display: grid;
+}
+
+.thirdsection{
+  height: 80vh;
+}
+.thirdsection .text-gray-project{
+  display: flex;
+  justify-content: center;
+}
+.thirdsection h1{
+  
+  display: flex;
+  justify-content: center;
+}
+.thirdsection .all-cards{
+  margin: 25px 0px;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.thirdsection .card{
+  border: 1px solid white;
+  border-radius: 20px;
+  height: 52vh;
+  width: 22vw;
+  display: grid;
+  justify-items: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.thirdsection .card img{
+  height: 30vh;
+  width: 20vw;
+  border-radius: 15px;
+}
+
+.thirdsection .card .button{
+  margin: 15px auto;
+  display: flex;
+  justify-content: space-around;
+  height: 2.5rem;
+  width: 14vw;
+}
+.thirdsection .card .button button{
+  font-weight: 600;
+  font-size: medium;
+  color: rgb(24, 24, 24);
+  background-color: white;
+  width: 6.5vw;
+  border-radius: 5px;
+}

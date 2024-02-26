@@ -1,0 +1,37 @@
+
+.purple{
+    color: blueviolet;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    
+}nav ul li a:hover{
+    cursor: pointer;
+    color: rgb(129, 129, 245);
+    /* font-weight: bolder; */
+    font-size: 1.1rem;
+}
+#element{
+    color: blueviolet;
+}
+main hr{
+    background-color: blueviolet;
+    height: 0.1rem;
+    width: 85vw;
+    margin: 2.5rem auto;
+}
+.footer .card:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px  3px white, -1px 0.3px 3px whitesmoke;
+}
+.thirdsection .card .button button:hover{
+    cursor: pointer;
+    background-color: purple;
+    color: white;
+    border: 3px solid white;
+}
+.thirdsection .card:hover{
+    box-shadow: 1px 1px 3px white, -1px -1px 3px white;
+    transition: 0.5s;
+}
